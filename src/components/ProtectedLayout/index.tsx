@@ -1,4 +1,3 @@
-import React from "react";
 import { useAuth } from "../../context/AuthProvider/useAuth";
 
 export const ProtectedLayout = ({ children }: { children: JSX.Element }) => {
